@@ -35,7 +35,6 @@ describe('Show user profile', () => {
 
     const profileDTO = ProfileMap.toDTO(user as User);
 
-    console.log(profileDTO);
     expect(profileDTO).toHaveProperty('id');
 
   });
